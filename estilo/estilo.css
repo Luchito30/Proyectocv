@@ -1,0 +1,413 @@
+body 
+     {
+         background: url(https://i.blogs.es/ee0260/appsnotas/450_1000.jpg);
+        background-size: cover;
+        font-family: 'Source Code Pro', monospace;
+}
+
+aside
+     {
+        margin-top: -310px;
+        margin-bottom: 99px;
+
+}
+
+.marco
+      {
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+}
+
+.titulo
+        { 
+            color: blue;
+            background-color:coral;
+            font-size: 50px;
+            text-decoration: underline;
+}
+
+#imagen
+        { 
+            width: 100px;
+            border-top-width: 5px;
+            border-right-width: 5px;
+            border-bottom-width: 5px;
+            border-left-width: 5px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+}
+
+.image2
+       {
+            width: 100px;
+            padding-left: 104px;
+}
+
+.dato
+     {
+         background-color: red;
+         color: white;
+         margin-inline-start: auto;
+         margin-inline-end: auto;
+         width: 30%;
+}
+
+.rayado
+       {
+           text-decoration: underline;
+           text-align: center
+ }
+
+.page
+      {  
+         
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(245, 41,5);
+        mix-blend-mode: hard-light;
+      
+}
+
+.link
+
+      {
+          margin-right: 25px;
+          text-decoration: none;
+          color: white;
+          list-style-type: disc;
+          cursor: -moz-zoom-in,pointer;
+}
+
+.copyright
+          { 
+            background-color: orangered;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            display: block;
+            max-width: 55%;
+            left: 320px;
+              
+}
+
+.linea
+      {    
+        border: double;
+    position: relative;
+ 
+}
+
+.libro
+       {position: relative;
+        top: 8px;
+    }
+
+h2
+   { 
+       background-color: red;
+       color: white;
+       text-align: center;
+}
+
+.info
+      {
+         background-color: red;
+         color: white;
+ }
+
+ .tel
+      {
+         background-color: red;
+         color:white;
+         outline: dotted;
+         margin: 3px;
+	     width:57px; 
+         height: 14px; }
+
+.texto
+       {
+          margin-left: auto;
+          margin-top: 3px;
+          width:200px; 
+          height: 50px;}
+.texte
+       { 
+          margin: -7px;
+          width:250px; 
+          height: 50px;
+}
+    
+.hs
+    {
+       font-family: system-ui;
+}
+
+.envio
+       {
+           text-align: -webkit-center;
+           text-align: -moz-center;
+}
+
+
+    
+#tinte
+       {
+           background-color:purple ;
+        
+}
+
+.costado
+        { 
+            background-color: purple;
+            color: darkgrey;
+            margin-left: -8px;
+            position: relative;
+            width: 25%;
+            top: -1296px;
+}
+
+            
+.datito
+        {
+            color: darkgray;
+            font-size: 18px;
+            font-weight: bolder;
+}
+
+.costadoder
+            { 
+                margin-top: -1000px;
+                background-color: purple;
+                color: darkgray;
+                position: relative;
+                right: -1007px;
+                text-align: left;
+                top: -1765px;
+                width: 25%;
+}
+            
+.audio
+       { 
+              width: 250px;
+}
+
+.letra
+      {
+        font-family: 'Lobster', cursive;
+}
+
+.imageninsert
+              {
+                width: 22%;
+                margin-bottom: -16px;
+}
+
+.gif
+     {
+         width: 22%;
+         margin-bottom: -2px;
+         margin-top: 5px;
+}
+
+.espacio
+       {
+        margin-top: 12px;
+}
+            
+.imagemid
+          {
+            width: 5%;
+            left: 63px;
+            margin-left: 638px;
+            padding-top: 2px;
+}
+
+.letrita
+         {font-family: 'Lobster', cursive;
+}
+
+.nuwpage
+        {
+            background-color: purple;
+    position: relative;
+    width: 25%;
+    bottom: 1080px;
+    right: 9px;
+        }        
+
+.image3
+       {
+        width: 90%;
+        position: relative;
+        top: 12px;
+        right: -13px;
+        border-top-width: 5px;
+        border-right-width: 5px;
+        color: cornflowerblue;
+        border-bottom-width: 5px;
+        border-left-width: 5px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+       }
+       
+.propaganda
+            {
+                width: 40%;
+                position: relative;
+                left: 389px;
+                height: 200px;
+                border-top-width: 5px;
+                    border-right-width: 5px;
+                    border-bottom-width: 5px;
+                    border-left-width: 5px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    border-bottom-style: solid;
+                    border-left-style: solid;
+            }
+            
+.page#abajo
+            {
+                
+                bottom: -99px;
+            }
+
+.propaganda#clase1
+                {
+                    height: 101px;
+
+                }
+
+.promizq
+          {
+            width: 14%;
+    left: 1092px;
+    height: 455px;
+    bottom: 2px;
+    position: absolute;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    color: cornflowerblue;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+            
+        }                
+
+.promizq#promo2
+               {
+                top: 695px;
+                height: 473px;
+                width: 25%;
+                left: 990px;
+               }
+
+.tres
+            {
+                background-color: purple;
+                width: 25%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding-bottom: 103px;
+            }
+
+.cuatro
+            {
+                background-color: purple;
+    width: 25%;
+    right: 0px;
+    position: absolute;
+    top: 0;
+    margin-bottom: 186px;
+    padding-bottom: 57px;
+}
+            
+            
+
+            .pagetres
+             {
+                text-align: center;
+    font-size: 20px;
+    background-color: rgb(245, 41,5);
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 1860px;
+    left: 0px;
+    width: 100%;
+
+             }
+
+             .lineatres
+             {
+                border: double;
+                position: relative;
+                bottom: -1465px;
+            }
+
+             
+
+             .copyrighttres
+             {
+                top: 1482px;
+                background-color: orangered;
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                text-transform: uppercase;
+                position: relative;
+                width: 53%;
+                left: 312px;
+            
+             }
+
+             .imaggg
+                        {
+                            width: 33%;
+                            position: absolute;
+                            right: 120px;
+                            bottom: -28px;
+                        
+                        }
+
+                        .trab
+                                     {
+                                       
+                                        width: 100px;
+                                        padding-left: 104px;
+                                        position: absolute;
+                                        left: -52px;
+                                    }
+                                     
+
+                                    .trabajo5
+                                              {
+
+                                                position: absolute;
+    width: 50%;
+    top: 731px;
+    left: 336px;
+}
+
+                                              .dato12
+                                                     {
+
+                                                        font-size: 29px;
+    background-color: red;
+    position: absolute;
+    bottom: -1100px;
+    width: 40%;
+    left: 409px;
+    text-align: center;
+    color: white;
+}
+                                                     

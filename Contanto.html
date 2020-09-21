@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" media="screen" type="text/css" href="estilo/estilo.css" >
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form method="POST" action="">
+        <!--aca iria el servidor en donde se guarda-->
+        <table class="marco"> 
+            <tr>
+             <td> <h1 class="titulo">Curriculum Vitea <img class="libro" id="imagen" src="https://image.flaticon.com/icons/png/512/15/15895.png"></h1></td>
+             </tr>
+        </table>
+        <table class="dato"> 
+            <tr>
+            <td><h2 class="rayado"><b>Datos de Contacto</b></h2>
+            
+                    <h3 class="rayado">Por Favor Ingrese sus datos de contacto</h3>
+                </td>
+            </tr>
+        </table><br>
+        <table> 
+            <tr>
+                <th class="info"> <label for="Nombre" >Nomabre de la Empresa</label> </th>
+                <td><input type="text" name="Nombre" placeholder="Ejemplo:Movistar" required />  </td>
+            </tr>
+            <tr>
+                <th class="info"> <label for="Nombre">Nombre</label> </th>
+                <td><input type="text" class="Nombre" placeholder=" Ejemplo:Pedro" required /></td>
+            </tr>
+            <tr>
+                <th class="info"> <label for="Apellido">Apellido</label> </th>
+                <td><input type="text" name="Apellido" placeholder="Ejemplo:Gonzales" required /> </td>
+            </tr>
+            <tr>
+                <th class="info"><label for="mail">E-mail</label></th>
+                <td><input type="email" name="mail" placeholder=" hola@Ejemplo.com.ar" required /></td>
+            </tr>
+            <tr>
+                <th class="info"><label for="telefono">Telefono</label></th>
+                <td ><input type="tel" name="telefono" placeholder="011-1511111111"  required /> 
+                <strong class="tel">(Primero ingresar codigo de area)</strong></td>
+            </tr>
+            <tr>
+                <th class="info"><label for="Horario">Horario de contacto</label></th>
+                <td><input type="time" name="Horario" required /> <b class="hs" >HS </b><strong class="tel">Ejemplo 22:55 HS</strong>
+            </tr>
+            <tr>
+                <th class="info"><label for="Dia">Dia del contacto</label></th>
+                <td><input type="date" name="Dia" required /> <strong class="tel">Ejemplo 10/10/2020</strong>
+            </tr>
+            <tr>
+                <th class="info"><label for="Archivo">Adjunte Documentacion</label></th>
+                <td><input type="file" name="Archivo" /> <strong class="tel">(Ingrese documentacion solo si es necesario)</strong>
+            </tr>
+        <tr>
+       <th class="info"> <label>Seleccione disponibilidad del empleo</label></th>
+       <td> <select name="Disponibilidad" required>
+            <option value="Fulltime">Full time</option>
+            <option value="parttime">Part time</option>
+        </select></td>
+    </tr>
+       <tr>
+           <th class="info"><label>Seleccione tipo de Empleo</label></th>
+        <td><select name="tipoempleo" required >
+            <option value="Gastronomia">Gastronomia</option>
+            <option value="Limpieza">Limpieza</option>
+            <option value="Programacion">Programacion</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <label for="otro"><strong class="tel"> selecciono otro indique cual seria</strong></label>
+        <textarea name="otro" minlength="0" maxlength="50" placeholder="Tiene un maximo de 50 letras" required class="texte"></textarea></td>
+       </tr>
+            <tr>
+                <th class="info"> <label for="comentario">Deje algun comentario de ser necesario</label></th>
+                <td> <textarea name="comentario" minlength="0" maxlength="250" placeholder="Indique su comentario" class="texto" required></textarea>  <strong class="tel">  Tiene Un maximo de 250 Letras</strong></td>
+            </tr>
+        </table>
+
+        <br><br>
+       <div class="envio"><input type="submit" value="Enviar Formulario"  >
+       </div> 
+    </form><br><br><br>
+    <footer class="page" >
+        <a href="Cv.html" class="link">Páguina Principal</a>
+        <a href="cv2.html" class="link">Páguina Educacion</a>
+        <p><a href="cv3.html" class="link">Experiencia laboral</a></p>
+        </footer><br><br><br><hr class="linea">
+        <div class="copyright">
+        &copy 2020 Curriculum Vitea. Echo Por Lucho, todos los derechos reservados.
+        </div>
+</body>
+
+
+
+
+</html>
