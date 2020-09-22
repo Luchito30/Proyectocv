@@ -1,8 +1,14 @@
-@media screen and (min-width:300px) and (max-width:800px) {
-    body{font-size:0.8em;}
-    sidebar{display:none;}
+@media screen and (max-width: 1000px){
+    #encabezado{
+        height: auto;
     }
-    
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
 
 
 body 
